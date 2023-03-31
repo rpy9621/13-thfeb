@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java <Script></Script></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: beige;
+            text-align: center;
+            justify-content: center;
+            /* border: 5px solid orangered; */
+            font-family: 'Golos Text', sans-serif;
+            overflow: hidden;
+            border-radius: 5px;
+            
+            
+        }
+        .span{
+            color: red;
+            text-decoration: underline;
+        }
+        button{
+            color: blue;
+            size: 100px;
+            border: 2px yellowgreen;
+            width: 100px;
+        }
+        button:hover{
+            color: orange;
+            border: 2px solid yellow;
+        }
+        p{
+            color: slateblue;
+        }
+        fieldset{
+            height: auto;
+            width: auto;
+            padding-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <h1>What Can <span class="span"><big>JavaScript</big></span>  do?</h1>
+
+    <p>JavaScript can change <span class="span"><big>HTML</big></span> attribute values.</p>
+    
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+    
+    <button onclick="document.getElementById('myImage').src='WhatsApp Image 2023-03-31 at 7.44.35 AM (1).jpeg'">Turn on the light</button>
+    
+     <img id="myImage" src="WhatsApp Image 2023-03-31 at 7.44.35 AM.jpeg" style="width:300px"> 
+    
+    <button onclick="document.getElementById('myImage').src='WhatsApp Image 2023-03-31 at 7.44.35 AM.jpeg'">Turn off the light</button>
+    </fieldset>
+</body>
+</html>
